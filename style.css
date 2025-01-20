@@ -1,6 +1,5 @@
 body {
     background-color: #000000;
-    border: 1px solid #FEFEFE;
     padding: 15px;
 }
 
@@ -42,7 +41,7 @@ p {
     font: Arial;
 }
 
-a {
+.navbar {
     text-align: right;
 }
 
@@ -60,7 +59,6 @@ ol {
 .navbar ul {
     list-style-type: none;
     padding: 0px;
-    overflow: hidden;
 }
 
 .navbar a:hover {
@@ -96,4 +94,18 @@ ol {
 #languages_icon:hover {
     width: 100px;
     height: 100px;
+}
+
+.dropdown #languages {
+    display: block;
+    position: relative;
+}
+
+.dropdown a {
+    display: none;
+}
+
+.dropdown:hover a {
+    display: block;
+    position: static;
 }
