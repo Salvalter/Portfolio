@@ -8,10 +8,9 @@ h1 {
     text-align: center;
     font: Arial;
     
-    border: dashed;
+    border: solid;
     border-width: 1px;
     border-color: #3ACC15;
-    border-radius: 10px;
 
     padding: 5px;
 }
@@ -52,6 +51,7 @@ ol {
 
 #me {
     float: left;
+    position: absolute;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -73,10 +73,6 @@ ol {
     text-align: center;
 }
 
-.navbar #current {
-    background-color: #2E7712
-}
-
 .navbar li {
     float: right;
 }
@@ -91,11 +87,6 @@ ol {
     margin-right: 10px;
 }
 
-#languages_icon:hover {
-    width: 100px;
-    height: 100px;
-}
-
 .dropdown #languages {
     display: block;
     position: relative;
@@ -108,4 +99,8 @@ ol {
 .dropdown:hover a {
     display: block;
     position: static;
+}
+
+label {
+    color: #3ACC15;
 }
