@@ -3,55 +3,48 @@
 <html lang="en">
     <head>
         <title>Sayedur Jahangir | Portfolio</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylesheets\projects.css">
     </head>
-    
     <body>
-        <script src="index.js"></script>
-
         <header>
             <h1>Sayedur Jahangir | Portfolio</h1>
             <nav class="navbar">
                 <ul>                
-                    <li><a href="index.html">Home</a></li>
-                    <li><div class="dropdown"><a id="languages">Projects &#8595</html>
-                        <a href="">Python</a>
-                        <a href="">C++</a>
-                        <a href="">HTML</a>
-                    </div></li>
+                    <li><a href="contact.html" id="right">Contact</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
                     <li><a href="certifications.html">Certifications</a></li>
-                    <li><a href="biography.html">Biography</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a id="current">Projects</a></li>
+                    <li><a href="index.html" id="left">Home</a></li>
                 </ul>
             </nav>
         </header>
-
-        <br>
-
-        <main>
-            <search>
-                <label>
-                    <input type="search" placeholder="Filter by Keyword" id="query"/>
-                </label>
-            </search>
-        </main>
-
-        <br>
-
-    <h3>Select a language to view all projects in that language:</h3>
-    <div class="flex">    
-        <div class="box"><img src="images/languages/python.png" height="100px" id="languages_icon"></div>
-        <div class="box"><img src="images/languages/cpp.png" height="100px" id="languages_icon"></div>
-        <div class="box"><img src="images/languages/MySQL.png" height="100px" id="languages_icon"></div>
-        <div class="box"><img src="images/languages/HTML5.png" height="100px" id="languages_icon"></div>        
-        <div class="box"><img src="images/languages/CSS3.png" height="100px" id="languages_icon"></div>
-        <div class="box"><img src="images/languages/JavaScript.png" height="100px" id="languages_icon"></div>
-    </div>
-
+    <br><br>
+        <h3>Select a language to view all projects in that language:</h3>
+        <div class="flex">    
+            <div class="box"><a href="https://github.com/Salvalter?tab=repositories&q=&type=&language=python&sort="><img src="images/languages/python.png" height="90px" id="languages_icon"></a></div>
+            <div class="box"><img src="images/languages/cpp.png" height="90px" id="languages_icon"></div>
+            <div class="box"><img src="images/languages/MySQL.png" height="90px" id="languages_icon"></div>
+            <div class="box"><a href="https://github.com/Salvalter?tab=repositories&q=&type=&language=html&sort="><img src="images/languages/HTML5.png" height="90px" id="languages_icon"></a></div>        
+            <div class="box"><a href="https://github.com/Salvalter?tab=repositories&q=&type=&language=html&sort="><img src="images/languages/CSS3.png" height="90px" id="languages_icon"></a></div>
+            <div class="box"><img src="images/languages/JavaScript.png" height="90px" id="languages_icon"></div>
+        </div>
+        <h3>Or view by project type:</h3>
+        <div class="flex">
+            <div class="box"><img src="images/LeetCode.png" height="90px" id="languages_icon"></div> <!--Additional project types to add: personal, work, open-source.-->
+        </div>
     <br>
-
-    <h3>Or view by project type:</h3>
-    <div class="flex">
-        <div class="box"><img src="images/LeetCode.png" height="100px" id="languages_icon"></div>
-    </div>   
+        <div class="projects">
+            <div class="project">
+                <h3>Portfolio | Website</h3>
+                <p>This website was coded in HTML, CSS and JavaScript. It functions as a CV or resume, containing links and background information for my projects.</p>
+            </div>
+            <div class="project">
+                <h3>Dionysus | Discord Bot</h3>
+                <p>Dionysus is a bot written in Python for the Discord application. It's in active development with plans to deploy commercially.</p>
+            </div>
+            <div class="project"><a href="https://github.com/Salvalter/LeetCode" style="text-decoration:none">
+                <h3>LeetCode | Programming Riddles</h3>
+                <p>This repository contains solutions to various LeetCode problems.</p></a>
+            </div>
+        </div>
     </body>

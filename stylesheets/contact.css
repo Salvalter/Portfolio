@@ -1,0 +1,115 @@
+body {
+    background-color: #000000;
+    padding: 15px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    color: #FEFEFE;
+    text-align: center;
+    font: Arial;
+
+    padding: 5px;
+}
+
+h2 {
+    color: #FEFEFE;
+    text-align: center;
+    font-family: Arial;
+}
+
+h3 {
+    color: #3ACC15;
+    font: Arial;
+    margin-left: 5px;
+    text-align: center;
+    font-family: Arial;
+}
+
+h4 {
+    color: #3ACC15;
+    font: Arial;
+    margin-left: 5px;
+}
+
+p {
+    color: #3ACC15;
+    font: Arial;
+}
+
+.navbar {
+    text-align: right;
+}
+
+ol {
+    color: #3ACC15;
+    font: Arial;
+}
+
+#me {
+    float: left;
+    position: absolute;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.navbar a:hover {
+    background-color: #2E7712;
+}
+
+.navbar a { 
+    color: #3ACC15;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar li {
+    float: right;
+}
+
+#link {
+    margin-left: 5px;
+    color: #3ACC15;
+}
+
+#languages_icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dropdown #languages {
+    display: block;
+    position: relative;
+}
+
+.dropdown a {
+    display: none;
+}
+
+.dropdown:hover a {
+    display: block;
+    position: static;
+}
+
+label {
+    color: #3ACC15;
+}

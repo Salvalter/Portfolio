@@ -3,27 +3,10 @@ body {
     padding: 15px;
 }
 
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.box {
-    height: 100px;
-    width: 100px;
-}
-
 h1 {
     color: #FEFEFE;
     text-align: center;
     font: Arial;
-    
-    border: solid;
-    border-width: 1px;
-    border-color: #3ACC15;
 
     padding: 5px;
 }
@@ -31,7 +14,7 @@ h1 {
 h2 {
     color: #FEFEFE;
     text-align: center;
-    font-family: Arial;
+    font: Arial;
 }
 
 h3 {
@@ -51,27 +34,11 @@ h4 {
 p {
     color: #3ACC15;
     font: Arial;
+    margin-left: 5px;
 }
 
 .navbar {
     text-align: right;
-}
-
-ol {
-    color: #3ACC15;
-    font: Arial;
-}
-
-#me {
-    float: left;
-    position: absolute;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.navbar ul {
-    list-style-type: none;
-    padding: 0px;
 }
 
 .navbar a:hover {
@@ -90,30 +57,7 @@ ol {
     float: right;
 }
 
-#link {
-    margin-left: 5px;
-    color: #3ACC15;
-}
-
 #languages_icon {
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.dropdown #languages {
-    display: block;
-    position: relative;
-}
-
-.dropdown a {
-    display: none;
-}
-
-.dropdown:hover a {
-    display: block;
-    position: static;
-}
-
-label {
-    color: #3ACC15;
 }
